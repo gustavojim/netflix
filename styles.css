@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Arial"
+  }
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-transform: none;
+    line-height: none;
+    color: white;
+  }
+
+h2 {
+    font-size: 1em;
+    text-align: center;
+    text-transform: none;
+    line-height: none;
+    color: white;
+  }
+
+h3 {
+    font-size: .75em;
+    text-align: center;
+    text-transform: none;
+    line-height: none;
+    color: white;
+  }
+
+.header {
+    background-color: black;
+    height: 800px;
+    padding-top: 200px;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url('./Images/background.jpg');
+    mask-image: 80%;
+  }
+
+.logo-1 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+.logo {
+    background-color: black;
+    flex: 80%;
+    margin: 1%;
+}
+
+#idioma {
+    margin: auto;
+}
+
+#email-top {
+    text-align: center;
+    padding: 10%;
+  
+}
+
+#email {
+    font-size: 0.7em;
+    padding: 0.75%;
+}
+
+.idioma {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#button-sesion {
+    flex: 13%;
+    text-align: center;
+    margin: 1%;
+    line-height: 150%;
+    color: white;
+    background-color: red;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
